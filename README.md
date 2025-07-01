@@ -1,4 +1,4 @@
-### **Assignment: Build a Travel Plan Manager**
+### **Build a Travel Plan Manager**
 
 #### **Objective**
 - Design a PostgreSQL schema for managing travel plans.
@@ -123,21 +123,5 @@
            }
          ]
          
-## Pre-requisites
-Before you start, please grab a Postgres URL from either of the following - 
- - https://neon.tech/
- - https://aiven.io/
-
-and put it in config.ts
-
-## Assignment
-You are supposed to write the `database` part of an full stack app. 
-Specifically, you need to fill the functions in 
- - src/db/user.ts
- - src/db/travel.ts
- - src/db/setup.ts
-
-## Testing
-Run `npm run test` to run all the tests
 
 
