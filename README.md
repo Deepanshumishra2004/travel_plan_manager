@@ -14,7 +14,7 @@
 1. **Schema Design**  
    - **users** table
      - `id`: Primary Key, auto-incremented integer.
-     - `username`: Unique string, required.
+     - `email`: Unique string, required.
      - `password`: String, required.
      - `name`: String, required.
    - **travel_plans** table
@@ -43,10 +43,10 @@
 
    - Insert users:
      ```sql
-     INSERT INTO users (username, password, name)
+     INSERT INTO users (email, password, name)
      VALUES 
-       ('john_doe', 'password123', 'John Doe'),
-       ('jane_smith', 'securepass', 'Jane Smith');
+       ('john_doe@gmail.com', 'password123', 'John Doe'),
+       ('jane_smith@gmail.com', 'securepass', 'Jane Smith');
      ```
 
    - Insert travel plans:
