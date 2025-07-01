@@ -1,0 +1,24 @@
+{
+  "name": "1-postgres-simple",
+  "version": "1.0.0",
+  "description": "- Design a PostgreSQL schema for managing travel plans.\r - Implement functions to:\r   - Insert a new travel plan.\r   - Update a travel plan.\r   - Retrieve all travel plans for a specific user.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/pg": "^8.11.0",
+    "pg": "^8.11.3",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  },
+  "type": "commonjs"
+}
